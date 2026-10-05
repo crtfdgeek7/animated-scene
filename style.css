@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.box {
+    /* animation: box 4s infinite; */
+
+}
+@keyframes box {
+    /* from {
+        transform: translate(1px);
+    }
+
+    to {
+        transform: translate(1000px);
+        border: 2px solid red;
+    } */
+    0% {
+        /* border: 20px solid red; */
+    }
+    25%{
+        /* border: 20px solid green; */
+        transform: translateX(300px);
+    }
+    50%{
+        /* border: 20px solid yellow; */
+        transform: translate(300px,200px);
+    }
+    75%{
+        /* border: 20px solid blue; */
+        transform: translate(-20px,200px);
+    }
+    100%{
+        /* border: 20px solid salmon; */
+        transform: translateY(-20px,-200px);
+    }
+}
